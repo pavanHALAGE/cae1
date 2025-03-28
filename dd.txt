@@ -24,7 +24,7 @@ int main() {
             printf("bech electronics and communication.\n");
             break;
         case 4:
-            printf("You selected Option Four.\n");
+            printf("btech mechanical.\n");
             break;
         default:
             printf("Invalid choice! Please select a number between 1 and 4.\n");
