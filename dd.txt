@@ -17,7 +17,8 @@ int main() {
             printf("btech computer science engineering");
             break;
         case 2:
-            printf("You selected Option Two.\n");
+            printf("btech aiml.\n");
+            printf("btech artificial intelligence");
             break;
         case 3:
             printf("You selected Option Three.\n");
