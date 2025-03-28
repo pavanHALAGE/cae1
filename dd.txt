@@ -21,7 +21,7 @@ int main() {
             printf("btech artificial intelligence");
             break;
         case 3:
-            printf("You selected Option Three.\n");
+            printf("bech electronics and communication.\n");
             break;
         case 4:
             printf("You selected Option Four.\n");
