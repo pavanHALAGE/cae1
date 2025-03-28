@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main() {
+    int choice;
+
+    // Displaying the options
+    printf("Please select an option (1-4):\n");
+    printf("1. Option One\n");
+    printf("2. Option Two\n");
+    printf("3. Option Three\n");
+    printf("4. Option Four\n");
+    
+    // Taking user input
+    printf("Enter your choice: ");
+    scanf("%d", &choice);
+
+    // Switch case structure
+    switch (choice) {
+        case 1:
+            printf("You selected Option One.\n");
+            break;
+        case 2:
+            printf("You selected Option Two.\n");
+            break;
+        case 3:
+            printf("You selected Option Three.\n");
+            break;
+        case 4:
+            printf("You selected Option Four.\n");
+            break;
+        default:
+            printf("Invalid choice! Please select a number between 1 and 4.\n");
+            break;
+    }
+
+    return 0;
+}
+
