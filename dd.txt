@@ -2,13 +2,11 @@
 
 int main() {
     int choice;
-
     printf("Please select an option (1-4):\n");
     printf("1. Option One\n");
     printf("2. Option Two\n");
     printf("3. Option Three\n");
     printf("4. Option Four\n");
-    
     printf("Enter your choice: ");
     scanf("%d", &choice);
     switch (choice) {
